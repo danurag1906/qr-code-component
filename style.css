@@ -16,65 +16,33 @@ body{
 }
 
 .card{
-    width: 250px;
-    height: 400px;
+    width: 15.65rem;
+    height: 25rem;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0.62rem;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 .qr{
-    padding: 10px;
+    padding: 0.62rem;
     padding-bottom: 0px;
 }
 
 img{
-    border-radius: 10px;
+    border-radius: 0.62rem;
     object-fit: inherit;
-    width: 230px;
-    height: 230px;
-}
-.content{
-    line-height: 8px;
-    /* margin: 0px;
-    display: inline-block;
-    vertical-align: top; */
+    width: 14.37rem;
+    height: 14.37rem;
 }
 
-.heading1{
-    margin-bottom: 0px;
-    padding-left: 30px;
-    color:  hsl(218, 44%, 22%);
+h1 {
+    font-size: 1rem;
+    text-align: center;
+    margin-inline: 2rem;
     font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
 }
-
-.heading2{
-    padding-left: 25px;
-    color: hsl(218, 44%, 22%);
+p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-inline: 1rem;
     font-family: 'Outfit', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-}
-.desc1{
-    padding-top: 1px;
-    padding-left: 22px;
-    color: hsl(212, 45%, 60%);
-    font-family: 'Outfit', sans-serif;
-    font-weight: 300;
-    font-size: 13px;
-}
-.desc2{
-    padding-left: 17px;
-    color: hsl(212, 45%, 60%);
-    font-family: 'Outfit', sans-serif;
-    font-weight: 300;
-    font-size: 13px;
-}
-.desc3{
-    padding-left: 70px;
-    color: hsl(212, 45%, 60%);
-    font-family: 'Outfit', sans-serif;
-    font-weight: 300;
-    font-size: 13px;
 }
